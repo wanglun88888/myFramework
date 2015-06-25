@@ -37,150 +37,120 @@
 			<attribute name="owner.project.facets" value="me.hibernate"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.26-bin.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/json-lib/commons-beanutils-1.7.0.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/json-lib/commons-collections-3.2.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/json-lib/commons-lang.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/json-lib/commons-logging.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/json-lib/ezmorph-1.0.6.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/json-lib/json-lib-2.2.3-jdk15.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/json-lib/morph-1.1.1.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/annotations-api.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/catalina-ant.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/catalina-ha.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/catalina-tribes.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/catalina.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/ecj-4.4.2.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/el-api.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/jasper-el.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/jasper.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/jsp-api.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/servlet-api.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-api.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-coyote.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-dbcp.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-i18n-es.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-i18n-fr.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-i18n-ja.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-jdbc.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-util.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat7-websocket.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/Users/zhangpeng/git/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/websocket-api.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.26-bin.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/catalina.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/ecj-4.4.2.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/el-api.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/jasper.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat7-websocket.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/tomcat lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/json-lib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/json-lib/commons-lang.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/json-lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/json-lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/json-lib/json-lib-2.2.3-jdk15.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/classworlds-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/com.springsource.net.sf.cglib-2.2.0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/com.springsource.org.apache.commons.fileupload-1.2.0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/com.springsource.org.apache.commons.httpclient-3.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/com.springsource.org.apache.commons.lang-2.4.0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/com.springsource.org.apache.commons.pool-1.5.3.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/com.springsource.org.codehaus.jackson.mapper-1.0.0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-chain-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-digester-2.0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-io-1.3.2.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-logging-api-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/commons-validator-1.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/freemarker-2.3.16.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/javassist-3.7.ga.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/javax.servlet.jsp.jstl.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/jimi.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/jotm.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/jsf-api.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/jsf-impl.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/json-lib-2.1-jdk15.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/json-lib-2.2.3-jdk15.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/jstl-impl.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/morph-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/netty-3.5.2.Final.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/ognl-3.0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.aop-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.asm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.aspects-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.beans-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.context-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.core-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.expression-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.instrument.tomcat-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.instrument-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.jdbc-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.orm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.oxm-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.transaction-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.web.portlet-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.web.servlet-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.web.struts-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/org.springframework.web-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/persistence.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/spring-beans-2.5.6.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/spring-context-2.5.6.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/spring-core-2.5.6.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/spring-web-2.5.6.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/sslext-1.2-0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/struts2-convention-plugin-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/struts2-core-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/struts2-embeddedjsp-plugin-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/struts2-json-plugin-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/struts2-spring-plugin-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/xapool.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/xom1.1.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/xwork-core-2.2.1.jar"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.struts2.MYECLIPSE_STRUTS21_CORE"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>

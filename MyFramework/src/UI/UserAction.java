@@ -72,6 +72,7 @@ public class UserAction extends BaseAction{
 		this.message = message;
 	}
 	public String login(){
+		System.out.println("test.login");
 		List user = userBO.login(username, password);
 		if(user!=null&&user.size()>0){
 			Map session = ActionContext.getContext().getSession();
