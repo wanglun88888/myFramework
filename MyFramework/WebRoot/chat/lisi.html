@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+    <title></title>
+    <h1>我叫李四</h1>
+    <h3>1.开发时把from换成动态的，即当前登录用户即可。<br/>2.先点击登录再发送内容！</h3>
+    <script type="text/javascript">
+        var ws = null;
+        
+        //当前登录用户
+        var from = 2;
+        var ip = "localhost";
+        
+        function setConnected(connected) {
+            document.getElementById('connect').disabled = connected;
+            document.getElementById('disconnect').disabled = !connected;
+            document.getElementById('echo').disabled = !connected;
+        }
+
+        function connect() {
+        var toId = 1;
+        var toName ="Allen";
+            var target = window.location.host+"/MyFramework/websocket.servlet?toId="+toId+"&toName="+toName;
+            if ('WebSocket' in window) {
+            	alert(target);
+                ws = new WebSocket("ws://"+target);
+            } else if ('MozWebSocket' in window) {
+                ws = new MozWebSocket("ws://"+target);
+            } else {
+                alert('WebSocket is not supported by this browser.');
+                return;
+            }
+            
+            //打开连接回调
+            ws.onopen = function () {
+                setConnected(true);
+                log("<li style='color:red;'>系统消息: WebSocket connection opened.</li>");
+            };
+            
+            //接收消息
+            ws.onmessage = function (event) {
+            	 log("<li style='color:green;'>"+event.data+"</li>");
+            };
+            
+            //关闭消息回调
+            ws.onclose = function () {
+                setConnected(false);
+                log("<li style='color:red;'>系统消息: WebSocket connection closed.</li>");
+            };
+        }
+
+        function disconnect() {
+            if (ws != null) {
+                ws.close();
+                ws = null;
+            }
+            setConnected(false);
+        }
+
+        function echo() {
+            if (ws != null) {
+            	 var message = document.getElementById('message').value;
+            	 if(message==null||message==''){
+            		 alert("内容不能为空！");
+            		 return;
+            	 }
+                 var to = document.getElementById('selectuser').value;
+                 //数据格式   from:zhangsanID,to:lisiID,msg:nihao
+                 var msg = "from:"+from+",to:"+to+",msg:"+message;
+                 ws.send(msg);
+                 log("<li style='color:blue;'>我说：&nbsp;" + message + "</li>");
+                 document.getElementById('message').value = "";
+            } else {
+                alert('WebSocket connection not established, please connect.');
+            }
+        }
+
+        function log(message) {
+        	 document.getElementById('console').innerHTML += "<br/>" + message;
+        }
+    </script>
+</head>
+<body>
+
+<div>
+    <div id="connect-container">
+        <div>
+            <button id="connect" onclick="connect();">登录</button>
+            <button id="disconnect" disabled="disabled" onclick="disconnect();">退出登录</button>
+            <select id="selectuser">
+            	<option value="zhangsan">张三</option>
+            </select>
+        </div>
+        <div>
+            <textarea id="message" style="width: 350px"></textarea>
+        </div>
+        <div>
+            <button id="echo" onclick="echo();" disabled="disabled">发送</button>
+        </div>
+    </div>
+     <div id="console"></div>
+</div>
+</body>
+</html>
