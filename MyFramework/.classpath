@@ -152,5 +152,8 @@
 	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/xom1.1.jar"/>
 	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/xwork-core-2.2.1.jar"/>
 	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.struts2.MYECLIPSE_STRUTS21_CORE"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/derbyclient.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/quartz-all-1.6.5.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/MyFramework/MyFramework/WebRoot/WEB-INF/lib/sshLib/spring-context-support-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>

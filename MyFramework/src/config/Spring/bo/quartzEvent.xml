@@ -12,10 +12,16 @@
                 http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
                 http://www.springframework.org/schema/tx
                 http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
-
-	<bean
-		id="UserBO" class="BO.User.UserImpl">
-		<property name="userDAO">
-			<ref bean="UserDAO" />
+	<bean id="schedulerService" class="BO.Quartz.SchedulerServiceImpl">
+		<property name="jobDetail">
+			<ref bean="jobDetailBean" />
 		</property>
-</bean></beans>
+		<property name="scheduler">
+			<ref bean="scheduler" />
+		</property>
+		<property name="QuartzDAO">
+			<ref bean="QuartzDAO" />
+		</property>
+	</bean>
+</beans>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                http://www.springframework.org/schema/context
+                http://www.springframework.org/schema/context/spring-context-2.5.xsd
+                http://www.springframework.org/schema/aop
+                http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+                http://www.springframework.org/schema/tx
+                http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+	<!-- 测试spring配置quartz-->
+<!--  
+	<bean id="mailJob" name="mailJob" class="cn.edu.fudan.ui.quartzEvent.MailJob">
+	<property name="eventLogBO">
+			<ref bean="EventLogBO" />
+		</property>
+		<property name="enterpriseBO">
+			<ref bean="EnterpriseBO" />
+		</property>
+		<property name="userBO">
+			<ref bean="UserBO" />
+		</property>
+	</bean>
+	<bean id="mailQuartzJob" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="mailJob"></property>
+        <property name="targetMethod" value="sendMail"></property>
+        <property name="concurrent" value="false"></property>
+    </bean>
+    <bean id="mailJobTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="mailQuartzJob"/>
+       每天早上8点 
+        <property name="cronExpression" value="0 0 8 * * ?"></property>
+    </bean>
+    
+ 	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean" lazy-init="false">
+		<property name="triggers">
+            <list>
+                <ref bean="mailJobTrigger" />
+            </list> 
+        </property>
+ 	</bean>
+    -->
+	<bean id="scheduler" name="scheduler"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+  		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		
+		<property name="autoStartup" value="true" />
+		<property name="applicationContextSchedulerContextKey" value="applicationContextKey" />
+		<property name="configLocation" value="classpath:quartz.properties" />
+		
+	</bean>
+	
+    
+	<bean id="CommandQuartzJob" name="CommandQuartzJob"
+		class="Util.quartzEvent.CommandQuartzJob">
+	</bean>
+
+	<bean id="jobDetailBean" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass" value="Util.quartzEvent.ExecuteQuartzJob" />
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="CommandQuartzJob">
+                    <ref bean="CommandQuartzJob"/>
+                </entry>
+			</map>
+		</property>
+	</bean>
+</beans>

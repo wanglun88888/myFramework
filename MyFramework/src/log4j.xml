@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"
+	debug="false">
+
+	<!-- ===========Console Appender========= -->
+	<appender name="ConsoleAppender"
+		class="org.apache.log4j.ConsoleAppender">
+		<param name="Threshold" value="WARN" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%d %-5p [%c{1}] (%13F:%L) %m%n" />
+		</layout>
+	</appender>
+
+	<!-- ===========Base Exception Appender========= -->
+	<appender name="BASEEXCEPTION_FILE"
+		class="org.apache.log4j.RollingFileAppender">
+		<param name="Threshold" value="INFO" />
+		<param name="File" value="${catalina.base}/logs/SmartHome/Exception.log" />
+		<param name="Append" value="true" />
+		<param name="MaxFileSize" value="1000KB" />
+		<param name="MaxBackupIndex" value="5" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p [%c{1}] (%13F:%L) %m%n" />
+		</layout>
+	</appender>
+	
+	<!-- BASE Exception StackTrace -->
+	<!--<category name="EXCEPTION.BASE" additivity="false">
+		<priority value="ERROR" />
+		<appender-ref ref="BASEEXCEPTION_FILE" />
+	</category>-->
+	
+	<!-- Root Message -->
+	<root>
+		<priority value="error" />
+		<appender-ref ref="BASEEXCEPTION_FILE" />
+	</root>
+</log4j:configuration>
