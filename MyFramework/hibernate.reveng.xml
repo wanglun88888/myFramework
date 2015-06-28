@@ -2,7 +2,12 @@
 <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
 
 <hibernate-reverse-engineering>
-<table name="user" catalog="Allen" class="Model.po.User">
+	<table name="user" catalog="Allen" class="Model.po.User">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+<table name="news" catalog="allen" class="Model.po.News">
 	<primary-key>
 		<generator class="native"></generator>
 	</primary-key>

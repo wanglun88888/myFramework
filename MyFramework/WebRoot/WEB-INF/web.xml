@@ -19,10 +19,21 @@
     <servlet-name>websocketServlet</servlet-name>
     <servlet-class>Util.websocket.websocketServlet</servlet-class>
   </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>exportHighChart</servlet-name>
+    <servlet-class>Util.convert.exportHighChart</servlet-class>
+  </servlet>
+
 
   <servlet-mapping>
     <servlet-name>websocketServlet</servlet-name>
     <url-pattern>/websocket.servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>exportHighChart</servlet-name>
+    <url-pattern>/exportHighChart.servlet</url-pattern>
   </servlet-mapping>
   <context-param>
     <param-name>contextConfigLocation</param-name>

@@ -57,4 +57,8 @@
 	<import resource="/config/Spring/*.xml"></import>
 	<import resource="/config/Spring/bo/*.xml"></import>
 	<import resource="/config/Spring/ui/*.xml"></import>
-	</beans>
+	<bean id="NewsDAO" class="Model.dao.NewsDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean></beans>
