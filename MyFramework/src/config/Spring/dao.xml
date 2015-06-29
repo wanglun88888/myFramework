@@ -19,6 +19,11 @@
 			<ref bean="sessionFactory" />
 		</property>
 </bean>
+<bean id="NewsDAO" class="Model.dao.NewsDAO">
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
 <bean id="QuartzDAO" class="Model.dao.QuartzDAO">
 		<property name="dataSource">
 			<ref bean="dataSource" />
